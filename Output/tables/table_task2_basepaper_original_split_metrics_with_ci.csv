@@ -1,0 +1,8 @@
+task,model_name,metric,point_estimate,ci_95_lower,ci_95_upper,bootstrap_samples
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,accuracy,0.9205128205128205,0.8923076923076924,0.9461538461538461,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,sensitivity,0.8918918918918919,0.8391445511010729,0.9403973509933775,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,specificity,0.9380165289256198,0.9055793991416309,0.9672164603546336,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,precision,0.8979591836734694,0.8484752589182969,0.9448463523340369,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,recall,0.8918918918918919,0.8391445511010729,0.9403973509933775,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,f1,0.8949152542372881,0.8552188552188552,0.9302440709187197,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,roc_auc,0.9486821532276077,0.9214466126974072,0.9719288613299243,2000

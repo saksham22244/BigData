@@ -1,0 +1,22 @@
+task,model_name,metric,point_estimate,ci_95_lower,ci_95_upper,bootstrap_samples
+Task 1 NORMAL vs PNEUMONIA,InceptionV3 frozen feature extractor,accuracy,0.9521218715995649,0.9368879216539716,0.9651795429815015,2000
+Task 1 NORMAL vs PNEUMONIA,InceptionV3 frozen feature extractor,sensitivity,0.9607558139534884,0.9460208077395578,0.9746291715579406,2000
+Task 1 NORMAL vs PNEUMONIA,InceptionV3 frozen feature extractor,specificity,0.9264069264069263,0.8898203226857887,0.9583376556016596,2000
+Task 1 NORMAL vs PNEUMONIA,InceptionV3 frozen feature extractor,precision,0.9749262536873156,0.9620967992060048,0.9862647075704528,2000
+Task 1 NORMAL vs PNEUMONIA,InceptionV3 frozen feature extractor,recall,0.9607558139534884,0.9460208077395578,0.9746291715579406,2000
+Task 1 NORMAL vs PNEUMONIA,InceptionV3 frozen feature extractor,f1,0.9677891654465594,0.9572835893579844,0.976448471370466,2000
+Task 1 NORMAL vs PNEUMONIA,InceptionV3 frozen feature extractor,roc_auc,0.9868556830766132,0.9803968181177516,0.9922592460630404,2000
+Task 2 BACTERIAL vs VIRAL,DenseNet121 fine-tuned patient-safe split,accuracy,0.8024316109422492,0.770516717325228,0.8328267477203647,2000
+Task 2 BACTERIAL vs VIRAL,DenseNet121 fine-tuned patient-safe split,sensitivity,0.7368421052631579,0.6796526289244735,0.792036493472356,2000
+Task 2 BACTERIAL vs VIRAL,DenseNet121 fine-tuned patient-safe split,specificity,0.8372093023255814,0.8013601864629262,0.8712660543317506,2000
+Task 2 BACTERIAL vs VIRAL,DenseNet121 fine-tuned patient-safe split,precision,0.7058823529411765,0.6447341235319705,0.762301631858672,2000
+Task 2 BACTERIAL vs VIRAL,DenseNet121 fine-tuned patient-safe split,recall,0.7368421052631579,0.6796526289244735,0.792036493472356,2000
+Task 2 BACTERIAL vs VIRAL,DenseNet121 fine-tuned patient-safe split,f1,0.721030042918455,0.6728020632366024,0.7638649839651155,2000
+Task 2 BACTERIAL vs VIRAL,DenseNet121 fine-tuned patient-safe split,roc_auc,0.8551509587923297,0.8207195749996115,0.8866685110381779,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,accuracy,0.9205128205128205,0.8923076923076924,0.9461538461538461,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,sensitivity,0.8918918918918919,0.8391445511010729,0.9403973509933775,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,specificity,0.9380165289256198,0.9055793991416309,0.9672164603546336,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,precision,0.8979591836734694,0.8484752589182969,0.9448463523340369,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,recall,0.8918918918918919,0.8391445511010729,0.9403973509933775,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,f1,0.8949152542372881,0.8552188552188552,0.9302440709187197,2000
+Task 2 BACTERIAL vs VIRAL base-paper original split,DenseNet121 fine-tuned base-paper original split,roc_auc,0.9486821532276077,0.9214466126974072,0.9719288613299243,2000

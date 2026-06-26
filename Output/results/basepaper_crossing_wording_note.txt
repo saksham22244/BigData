@@ -1,0 +1,5 @@
+Suggested manuscript wording:
+On the base-paper-comparable original TRAIN/TEST split, the DenseNet121 Task 2 model achieved accuracy above the reported base-paper reference when the comparison table shows crosses_base_paper_original_split=True.
+However, the stricter patient-safe split should be reported separately because it avoids patient overlap and is a more conservative internal validation setting.
+Do not describe the original-split result as proof of clinical readiness or definitive superiority.
+Recommended phrasing: The model exceeded the base-paper reference under the original split protocol, while patient-safe evaluation produced a lower but more conservative estimate.

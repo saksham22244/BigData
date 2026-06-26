@@ -1,0 +1,4 @@
+folder_label,images,patients,avg_kb
+NORMAL,1583,1444,538.16
+PNEUMONIA,4273,1674,83.22
+TOTAL,5856,3118,

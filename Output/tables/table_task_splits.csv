@@ -1,0 +1,7 @@
+task,split,class_counts,total,patients
+Task 1 NORMAL vs PNEUMONIA,Train,NORMAL: 1114 / PNEUMONIA: 2945,4059,2182
+Task 1 NORMAL vs PNEUMONIA,Validation,NORMAL: 238 / PNEUMONIA: 640,878,468
+Task 1 NORMAL vs PNEUMONIA,Test,NORMAL: 231 / PNEUMONIA: 688,919,468
+Task 2 BACTERIAL vs VIRAL base-paper original split,Train,BACTERIAL: 2157 / VIRAL: 1143,3300,1534
+Task 2 BACTERIAL vs VIRAL base-paper original split,Validation,BACTERIAL: 381 / VIRAL: 202,583,467
+Task 2 BACTERIAL vs VIRAL base-paper original split,Test,BACTERIAL: 242 / VIRAL: 148,390,202

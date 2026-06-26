@@ -1,0 +1,7 @@
+Task 2 base-paper-comparable original split overlap note
+Generated at UTC: 2026-06-24T02:59:02Z
+This split follows the dataset TRAIN/TEST folders to compare with the base paper.
+It is not used as the strict patient-safe primary result.
+train_validation overlap count: 359
+train_test overlap count: 158
+validation_test overlap count: 51

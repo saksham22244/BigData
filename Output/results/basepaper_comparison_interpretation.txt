@@ -1,0 +1,6 @@
+Base-paper comparison guidance:
+1. Do not claim definitive superiority if the patient-safe result does not exceed the base paper.
+2. Report this work as an internally evaluated, patient-safe replication/improvement workflow.
+3. If the base paper used image-level or folder-level splitting, its higher score may not be directly comparable because patient leakage can inflate performance.
+4. Emphasize required publication evidence: leakage checks, prediction CSVs, confidence intervals, 300 DPI figures, and reproducibility metadata.
+5. Phrase the result as: The patient-safe internal-test result was X with 95% CI Y-Z; this avoids overclaiming clinical readiness.
