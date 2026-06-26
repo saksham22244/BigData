@@ -1,4 +1,4 @@
-# Pediatric Chest X-ray Pneumonia Classification Using Transfer Learning
+# Evaluating InceptionV3 and DenseNet121 for Pediatric Pneumonia Detection Using a Spark-Based Medical Imaging Pipeline 
 
 This repository contains a reproducible Python notebook workflow for pediatric chest X-ray pneumonia classification. The workflow builds a clean image manifest, prepares task labels, checks patient-level leakage, trains transfer-learning models, exports predictions, reports confidence intervals, and saves publication-style figures.
 
