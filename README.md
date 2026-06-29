@@ -1,5 +1,4 @@
-# Evaluating InceptionV3 and DenseNet121 for Pediatric Pneumonia Detection Using a Spark-Based Medical Imaging Pipeline 
-
+# Leakage-aware AI transfer learning for pediatric pneumonia detection and subtype classification in chest radiographs
 This repository contains a reproducible Python notebook workflow for pediatric chest X-ray pneumonia classification. The workflow builds a clean image manifest, prepares task labels, checks patient-level leakage, trains transfer-learning models, exports predictions, reports confidence intervals, and saves publication-style figures.
 
 Main notebook:
