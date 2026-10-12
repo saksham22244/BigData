@@ -1,0 +1,531 @@
+{
+  "architecture": {
+    "actual_trainable_backbone_layers": 71,
+    "backbone_frozen_in_head": true,
+    "finetune_epochs_completed": 8,
+    "head_epochs_completed": 12,
+    "trainable_parameters": 2186241,
+    "upper_layer_positions": 100
+  },
+  "selected_weights_sha256": "f056e726774576bb0439449844fe9f89c08a283c2f7daf97c331d8378747a798",
+  "selection": "maximum tuning AUROC within fine-tuning stage",
+  "signature_hash": "16414bfb4a71a7e98a166ad81b73443d2bc38e1b88fcebd6f36ac70e2fbad453",
+  "stages": {
+    "finetune": {
+      "best_file": "0af5b6b493a34cb1b4123b498807b725.npz",
+      "best_file_sha256": "8df1885c0f02dbb2f3828b1d4f394231adec0dfb78710c6fd90af6e15666bb6b",
+      "early": {
+        "best": 0.823885977268219,
+        "best_epoch": 0,
+        "stopped_epoch": 7,
+        "wait": 7
+      },
+      "epoch": 8,
+      "epochs": 25,
+      "history": [
+        {
+          "accuracy": 0.770875096321106,
+          "auc": 0.8430452942848206,
+          "epoch": 1,
+          "learning_rate": 3.000000106112566e-06,
+          "loss": 0.49386823177337646,
+          "val_accuracy": 0.7800962924957275,
+          "val_auc": 0.823885977268219,
+          "val_loss": 0.5241823792457581
+        },
+        {
+          "accuracy": 0.7615230679512024,
+          "auc": 0.8362368941307068,
+          "epoch": 2,
+          "learning_rate": 3.000000106112566e-06,
+          "loss": 0.5029129981994629,
+          "val_accuracy": 0.7800962924957275,
+          "val_auc": 0.8219336867332458,
+          "val_loss": 0.5281549096107483
+        },
+        {
+          "accuracy": 0.7705410718917847,
+          "auc": 0.8455137610435486,
+          "epoch": 3,
+          "learning_rate": 3.000000106112566e-06,
+          "loss": 0.4904164969921112,
+          "val_accuracy": 0.7736757397651672,
+          "val_auc": 0.8203105330467224,
+          "val_loss": 0.528957188129425
+        },
+        {
+          "accuracy": 0.7765530943870544,
+          "auc": 0.8513235449790955,
+          "epoch": 4,
+          "learning_rate": 3.000000106112566e-06,
+          "loss": 0.48169806599617004,
+          "val_accuracy": 0.7688603401184082,
+          "val_auc": 0.8211504817008972,
+          "val_loss": 0.5322809219360352
+        },
+        {
+          "accuracy": 0.7818971276283264,
+          "auc": 0.8533987998962402,
+          "epoch": 5,
+          "learning_rate": 9.999999974752427e-07,
+          "loss": 0.47760212421417236,
+          "val_accuracy": 0.7672551870346069,
+          "val_auc": 0.8203957080841064,
+          "val_loss": 0.5351540446281433
+        },
+        {
+          "accuracy": 0.774549126625061,
+          "auc": 0.8512755632400513,
+          "epoch": 6,
+          "learning_rate": 9.999999974752427e-07,
+          "loss": 0.4830663800239563,
+          "val_accuracy": 0.7672551870346069,
+          "val_auc": 0.8202992677688599,
+          "val_loss": 0.5375249981880188
+        },
+        {
+          "accuracy": 0.7802271246910095,
+          "auc": 0.8536045551300049,
+          "epoch": 7,
+          "learning_rate": 9.999999974752427e-07,
+          "loss": 0.4787141680717468,
+          "val_accuracy": 0.7688603401184082,
+          "val_auc": 0.820827066898346,
+          "val_loss": 0.5317081212997437
+        },
+        {
+          "accuracy": 0.7795591354370117,
+          "auc": 0.8530012965202332,
+          "epoch": 8,
+          "learning_rate": 9.999999974752427e-07,
+          "loss": 0.47971728444099426,
+          "val_accuracy": 0.7672551870346069,
+          "val_auc": 0.820094883441925,
+          "val_loss": 0.5375962853431702
+        }
+      ],
+      "learning_rate": 9.999999974752427e-07,
+      "model_file": "0af5b6b493a34cb1b4123b498807b725.keras",
+      "model_file_sha256": "e4c283365a2a0597a2bc374e0b94589d4f5340b594b94fb1a69f6d62a9c1c38f",
+      "optimizer_iterations": 1504,
+      "reduce": {
+        "best": 0.823885977268219,
+        "cooldown_counter": 0,
+        "wait": 4
+      },
+      "signature": {
+        "content_sha256": "7cedb1d089c850957118f56f91aa50e46b33474fc7d5e48dcb07b0f138dee290",
+        "finetune_initial_weights": "4ec997a7a25f09ec92f21c39511172e9fea014ae31cee966afa5e2a50e74ac8a",
+        "protocol": {
+          "bootstrap_attempts": 2000,
+          "evaluation": "fixed_image_id_TTA_v1",
+          "grouping": "qualified_filename_plus_exact_pixel_duplicate_components_v3",
+          "implementation_sha256": "311fdd4442a623add59a8b23d14ff56b85fa278f03117ab70d36e15c955b0e36",
+          "seeds": [
+            17,
+            29,
+            42,
+            71,
+            101
+          ],
+          "software": {
+            "Pillow": "11.3.0",
+            "keras": "3.13.2",
+            "numpy": "2.1.3",
+            "pandas": "2.2.3",
+            "python": "3.13.15",
+            "scikit-learn": "1.6.1",
+            "scipy": "1.16.3",
+            "tensorflow": "2.20.0"
+          },
+          "task1": {
+            "TTA_passes": 3,
+            "TTA_rule": "fixed_transform_per_image_id_and_pass_v1",
+            "architecture": "InceptionV3",
+            "augmentation": {
+              "brightness_range": [
+                0.85,
+                1.15
+              ],
+              "fill_mode": "nearest",
+              "height_shift_range": 0.08,
+              "horizontal_flip": true,
+              "rotation_range": 12,
+              "shear_range": 0.05,
+              "width_shift_range": 0.08,
+              "zoom_range": 0.15
+            },
+            "batch_size": 32,
+            "class_weight": "balanced_training_images",
+            "classes": [
+              "NORMAL",
+              "PNEUMONIA"
+            ],
+            "es_min_delta": 0.0001,
+            "es_patience": 10,
+            "finetune_epochs": 0,
+            "head": "global_average_pool,dropout0.5,sigmoid",
+            "head_epochs": 30,
+            "head_lr": 0.001,
+            "lr_patience": 4,
+            "mode": "min",
+            "monitor": "val_loss",
+            "oversampling": false,
+            "positive_class": "PNEUMONIA",
+            "pretrained": "imagenet",
+            "selection": "minimum tuning loss",
+            "size": [
+              299,
+              299
+            ],
+            "task": "task1"
+          },
+          "task2": {
+            "TTA_passes": 0,
+            "architecture": "DenseNet121",
+            "augmentation": {
+              "brightness_range": [
+                0.9,
+                1.1
+              ],
+              "fill_mode": "nearest",
+              "height_shift_range": 0.05,
+              "horizontal_flip": true,
+              "rotation_range": 8,
+              "width_shift_range": 0.05,
+              "zoom_range": 0.1
+            },
+            "backbone_batch_normalization_frozen": true,
+            "batch_size": 16,
+            "class_weight": "balanced_training_images",
+            "classes": [
+              "BACTERIAL",
+              "VIRAL"
+            ],
+            "es_min_delta": 0.0,
+            "es_patience": 7,
+            "finetune_epochs": 25,
+            "finetune_lr": 3e-06,
+            "head": "global_average_pool,BN,dropout0.4,dense256_relu,BN,dropout0.3,sigmoid",
+            "head_epochs": 12,
+            "head_lr": 0.001,
+            "lr_patience": 3,
+            "mode": "max",
+            "monitor": "val_auc",
+            "oversampling": false,
+            "positive_class": "VIRAL",
+            "pretrained": "imagenet",
+            "selection": "maximum tuning AUROC within fine-tuning stage",
+            "size": [
+              320,
+              320
+            ],
+            "task": "task2",
+            "upper_layers": 100
+          },
+          "threshold": "max tuning balanced accuracy; accuracy then lower threshold; grid0.10..0.90step0.01",
+          "version": "reviewer_complete_v3"
+        },
+        "run": {
+          "design": "filename_grouped",
+          "run_id": "task2_filename_grouped_seed101",
+          "seed": 101,
+          "task": "task2"
+        },
+        "split_sha256": "c50e9471f89ea36fa28005318279661d77fcd1ae2db00485a30a7c202906b3e7",
+        "stage": {
+          "epochs": 25,
+          "es_min_delta": 0.0,
+          "es_patience": 7,
+          "lr_factor": 0.3,
+          "lr_patience": 3,
+          "min_lr": 1e-06,
+          "mode": "max",
+          "monitor": "val_auc",
+          "name": "finetune"
+        }
+      },
+      "signature_hash": "105e7fddb61896bf9049511635d2fd6b19566ead17b6379a3a15f7695f27ae9f",
+      "stage_name": "finetune",
+      "training_complete": true
+    },
+    "head": {
+      "best_file": "9ebfe2c68a2147db882df67e9033d035.npz",
+      "best_file_sha256": "c298e5e16882a57713b120eff6b34d8a762019f79c086f9b9c7593415c07b3b0",
+      "early": {
+        "best": 0.8262071013450623,
+        "best_epoch": 8,
+        "stopped_epoch": 0,
+        "wait": 3
+      },
+      "epoch": 12,
+      "epochs": 12,
+      "history": [
+        {
+          "accuracy": 0.679358720779419,
+          "auc": 0.7359181046485901,
+          "epoch": 1,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.7369198203086853,
+          "val_accuracy": 0.6308186054229736,
+          "val_auc": 0.7543585896492004,
+          "val_loss": 0.6515371799468994
+        },
+        {
+          "accuracy": 0.70875084400177,
+          "auc": 0.7786725759506226,
+          "epoch": 2,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.6051280498504639,
+          "val_accuracy": 0.7479935884475708,
+          "val_auc": 0.8168373107910156,
+          "val_loss": 0.5508491396903992
+        },
+        {
+          "accuracy": 0.7301269173622131,
+          "auc": 0.7967801690101624,
+          "epoch": 3,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.565198540687561,
+          "val_accuracy": 0.7560192346572876,
+          "val_auc": 0.8097999691963196,
+          "val_loss": 0.5377433896064758
+        },
+        {
+          "accuracy": 0.74515700340271,
+          "auc": 0.8150411248207092,
+          "epoch": 4,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.5368885397911072,
+          "val_accuracy": 0.7399678826332092,
+          "val_auc": 0.8172743320465088,
+          "val_loss": 0.5617199540138245
+        },
+        {
+          "accuracy": 0.7551770210266113,
+          "auc": 0.8288499116897583,
+          "epoch": 5,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.5128040313720703,
+          "val_accuracy": 0.7495987415313721,
+          "val_auc": 0.8014177083969116,
+          "val_loss": 0.5641722679138184
+        },
+        {
+          "accuracy": 0.7688710689544678,
+          "auc": 0.8318585753440857,
+          "epoch": 6,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.510095477104187,
+          "val_accuracy": 0.7817014455795288,
+          "val_auc": 0.822166383266449,
+          "val_loss": 0.5236465930938721
+        },
+        {
+          "accuracy": 0.752170979976654,
+          "auc": 0.8312168717384338,
+          "epoch": 7,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.5099118947982788,
+          "val_accuracy": 0.7415730357170105,
+          "val_auc": 0.8185341358184814,
+          "val_loss": 0.5585970282554626
+        },
+        {
+          "accuracy": 0.7648630738258362,
+          "auc": 0.8384035229682922,
+          "epoch": 8,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.4999000132083893,
+          "val_accuracy": 0.7431781888008118,
+          "val_auc": 0.8133810758590698,
+          "val_loss": 0.5564332008361816
+        },
+        {
+          "accuracy": 0.7635270357131958,
+          "auc": 0.8356048464775085,
+          "epoch": 9,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.5049669742584229,
+          "val_accuracy": 0.7672551870346069,
+          "val_auc": 0.8262071013450623,
+          "val_loss": 0.533275842666626
+        },
+        {
+          "accuracy": 0.7672010660171509,
+          "auc": 0.842381477355957,
+          "epoch": 10,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.49488767981529236,
+          "val_accuracy": 0.7383627891540527,
+          "val_auc": 0.8007934093475342,
+          "val_loss": 0.5568368434906006
+        },
+        {
+          "accuracy": 0.7571810483932495,
+          "auc": 0.8361890316009521,
+          "epoch": 11,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.5022199153900146,
+          "val_accuracy": 0.7447832822799683,
+          "val_auc": 0.809187114238739,
+          "val_loss": 0.5517788529396057
+        },
+        {
+          "accuracy": 0.7748830914497375,
+          "auc": 0.8459955453872681,
+          "epoch": 12,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.489329069852829,
+          "val_accuracy": 0.7608346939086914,
+          "val_auc": 0.8054130673408508,
+          "val_loss": 0.5270764231681824
+        }
+      ],
+      "learning_rate": 0.0003000000142492354,
+      "model_file": "9ebfe2c68a2147db882df67e9033d035.keras",
+      "model_file_sha256": "1bab0469f31d55f75bd648c358d973ea908b4d900d9109c61d9f798388e856e7",
+      "optimizer_iterations": 2256,
+      "reduce": {
+        "best": 0.8262071013450623,
+        "cooldown_counter": 0,
+        "wait": 0
+      },
+      "signature": {
+        "content_sha256": "7cedb1d089c850957118f56f91aa50e46b33474fc7d5e48dcb07b0f138dee290",
+        "protocol": {
+          "bootstrap_attempts": 2000,
+          "evaluation": "fixed_image_id_TTA_v1",
+          "grouping": "qualified_filename_plus_exact_pixel_duplicate_components_v3",
+          "implementation_sha256": "311fdd4442a623add59a8b23d14ff56b85fa278f03117ab70d36e15c955b0e36",
+          "seeds": [
+            17,
+            29,
+            42,
+            71,
+            101
+          ],
+          "software": {
+            "Pillow": "11.3.0",
+            "keras": "3.13.2",
+            "numpy": "2.1.3",
+            "pandas": "2.2.3",
+            "python": "3.13.15",
+            "scikit-learn": "1.6.1",
+            "scipy": "1.16.3",
+            "tensorflow": "2.20.0"
+          },
+          "task1": {
+            "TTA_passes": 3,
+            "TTA_rule": "fixed_transform_per_image_id_and_pass_v1",
+            "architecture": "InceptionV3",
+            "augmentation": {
+              "brightness_range": [
+                0.85,
+                1.15
+              ],
+              "fill_mode": "nearest",
+              "height_shift_range": 0.08,
+              "horizontal_flip": true,
+              "rotation_range": 12,
+              "shear_range": 0.05,
+              "width_shift_range": 0.08,
+              "zoom_range": 0.15
+            },
+            "batch_size": 32,
+            "class_weight": "balanced_training_images",
+            "classes": [
+              "NORMAL",
+              "PNEUMONIA"
+            ],
+            "es_min_delta": 0.0001,
+            "es_patience": 10,
+            "finetune_epochs": 0,
+            "head": "global_average_pool,dropout0.5,sigmoid",
+            "head_epochs": 30,
+            "head_lr": 0.001,
+            "lr_patience": 4,
+            "mode": "min",
+            "monitor": "val_loss",
+            "oversampling": false,
+            "positive_class": "PNEUMONIA",
+            "pretrained": "imagenet",
+            "selection": "minimum tuning loss",
+            "size": [
+              299,
+              299
+            ],
+            "task": "task1"
+          },
+          "task2": {
+            "TTA_passes": 0,
+            "architecture": "DenseNet121",
+            "augmentation": {
+              "brightness_range": [
+                0.9,
+                1.1
+              ],
+              "fill_mode": "nearest",
+              "height_shift_range": 0.05,
+              "horizontal_flip": true,
+              "rotation_range": 8,
+              "width_shift_range": 0.05,
+              "zoom_range": 0.1
+            },
+            "backbone_batch_normalization_frozen": true,
+            "batch_size": 16,
+            "class_weight": "balanced_training_images",
+            "classes": [
+              "BACTERIAL",
+              "VIRAL"
+            ],
+            "es_min_delta": 0.0,
+            "es_patience": 7,
+            "finetune_epochs": 25,
+            "finetune_lr": 3e-06,
+            "head": "global_average_pool,BN,dropout0.4,dense256_relu,BN,dropout0.3,sigmoid",
+            "head_epochs": 12,
+            "head_lr": 0.001,
+            "lr_patience": 3,
+            "mode": "max",
+            "monitor": "val_auc",
+            "oversampling": false,
+            "positive_class": "VIRAL",
+            "pretrained": "imagenet",
+            "selection": "maximum tuning AUROC within fine-tuning stage",
+            "size": [
+              320,
+              320
+            ],
+            "task": "task2",
+            "upper_layers": 100
+          },
+          "threshold": "max tuning balanced accuracy; accuracy then lower threshold; grid0.10..0.90step0.01",
+          "version": "reviewer_complete_v3"
+        },
+        "run": {
+          "design": "filename_grouped",
+          "run_id": "task2_filename_grouped_seed101",
+          "seed": 101,
+          "task": "task2"
+        },
+        "split_sha256": "c50e9471f89ea36fa28005318279661d77fcd1ae2db00485a30a7c202906b3e7",
+        "stage": {
+          "epochs": 12,
+          "es_min_delta": 0.0,
+          "es_patience": 7,
+          "lr_factor": 0.3,
+          "lr_patience": 3,
+          "min_lr": 1e-06,
+          "mode": "max",
+          "monitor": "val_auc",
+          "name": "head"
+        }
+      },
+      "signature_hash": "ab563d026f9f3eab98b880ba9d2df322721161f51e908191f6e82435f4da3439",
+      "stage_name": "head",
+      "training_complete": true
+    }
+  },
+  "training_complete": true
+}

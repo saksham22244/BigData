@@ -1,0 +1,12 @@
+{
+  "files": {
+    "test_metrics.csv": "948d549d28ad513350a6ae516309953ab550be0824ab6ccaab1de30d2f97351c",
+    "threshold_sensitivity.csv": "5f696b06e86fd9e69d4e0a859144beb5351fc14255109b24a06f90d788fc4888",
+    "training_curves.pdf": "2e4e9022cf9948095b77450d81c340640b9c2b423eb6694e0a1bee7fc8b9120a",
+    "training_curves.png": "bf41a4f0427f26f3f28ee5227759bd47a4c20f9f69339ccdcf167ce55f0ec5fb"
+  },
+  "signature": {
+    "implementation": "311fdd4442a623add59a8b23d14ff56b85fa278f03117ab70d36e15c955b0e36",
+    "test_sha256": "55671c83800198691283e58d96d3d01ec2494649b197897fb61866ada7a355a4"
+  }
+}
