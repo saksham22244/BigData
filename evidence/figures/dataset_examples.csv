@@ -1,0 +1,4 @@
+category,image_id,selection
+NORMAL,test/NORMAL/IM-0001-0001.jpeg,First lexicographic image_id within supplied category; illustrative only.
+BACTERIAL,test/PNEUMONIA/person100_bacteria_475.jpeg,First lexicographic image_id within supplied category; illustrative only.
+VIRAL,test/PNEUMONIA/person10_virus_35.jpeg,First lexicographic image_id within supplied category; illustrative only.

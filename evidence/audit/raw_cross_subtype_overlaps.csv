@@ -1,0 +1,5 @@
+train_subtype,test_subtype,overlapping_raw_prefixes,affected_train_images,affected_test_images,test_prefix_denominator,percent_test_prefixes
+BACTERIAL,BACTERIAL,0,0,0,77,0.0
+BACTERIAL,VIRAL,107,355,126,126,84.92063492063492
+VIRAL,BACTERIAL,63,102,194,77,81.81818181818181
+VIRAL,VIRAL,0,0,0,126,0.0

@@ -1,0 +1,4 @@
+key_rule,groups,multi_image_groups,maximum_images,median_images,mixed_subtype_groups
+raw_key,3118,1185,31,1.0,979
+qualified_key,4097,726,30,1.0,0
+split_group,4096,727,30,1.0,0

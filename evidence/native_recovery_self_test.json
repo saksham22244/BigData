@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "callback_restore": true,
+      "completion_skip": true,
+      "interruption_restore": true,
+      "mismatch_rejected": true,
+      "monitor": "val_loss",
+      "optimizer_restore": true,
+      "rollback": true,
+      "stage_transition": true
+    },
+    {
+      "callback_restore": true,
+      "completion_skip": true,
+      "interruption_restore": true,
+      "mismatch_rejected": true,
+      "monitor": "val_auc",
+      "optimizer_restore": true,
+      "rollback": true,
+      "stage_transition": true
+    }
+  ],
+  "keras": "3.13.2",
+  "passed": true,
+  "tensorflow": "2.20.0"
+}

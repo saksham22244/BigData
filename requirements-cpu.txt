@@ -1,0 +1,9 @@
+# Tested with Python 3.12.14 on Windows for saved-analysis verification.
+# These are the release-validation versions, not the original GPU environment.
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+Pillow==12.3.0
+matplotlib==3.11.2
+nbformat==5.11.1

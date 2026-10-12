@@ -1,0 +1,12 @@
+{
+  "version": "V3.1.1",
+  "requested_mount": "/content/drive",
+  "active_mount": "/content/drive",
+  "reused_active_mount": true,
+  "local_conflicting_files_preserved": true,
+  "bootstrap_source_sha256": "251bbd4853c4f610d0aa22b979dc00aba2164be1988b9060bb4308c30351f318",
+  "dataset_source": "/content/drive/MyDrive/Big Data/ChestXRay2017/chest_xray",
+  "output_root": "/content/drive/MyDrive/Big Data/ChestXRay2017/pneumonia_reviewer_complete_v3",
+  "training_and_inference_changed": false,
+  "existing_output_folder_found": true
+}

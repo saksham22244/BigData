@@ -1,0 +1,4 @@
+# Additional libraries for the full publication figure export.
+# Install alongside requirements-cpu.txt, or the recorded training requirements.
+matplotlib==3.11.2
+PyMuPDF==1.28.2

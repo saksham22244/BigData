@@ -1,0 +1,9 @@
+{
+  "figures_inline": true,
+  "old_task1_predictions_recomputed": true,
+  "revision": "V3.1",
+  "source_sha256": "7da9a3ef23ef71b413199a762b10462ecc99d5edb184c47f1e8fcd1a2b7a3811",
+  "task1_inference_revision": "fixed_image_tta_v2_padded_physical_batch",
+  "training_changed": false,
+  "training_implementation_sha256": "311fdd4442a623add59a8b23d14ff56b85fa278f03117ab70d36e15c955b0e36"
+}

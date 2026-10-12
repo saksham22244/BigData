@@ -1,0 +1,17 @@
+category,key_rule,train_groups,test_groups,overlap_groups,percent_test_groups,test_group_denominator,affected_train_images,affected_test_images,affected_images_both_folders,test_image_denominator,percent_test_images
+ALL,raw_key,2861,427,170,39.81264637002342,427,457,320,777,624,51.282051282051285
+ALL,qualified_key,3669,428,0,0.0,428,0,0,0,624,0.0
+ALL,split_group,3669,427,0,0.0,427,0,0,0,624,0.0
+ALL,pixel_sha256,5206,618,0,0.0,618,0,0,0,624,0.0
+NORMAL,raw_key,1219,225,0,0.0,225,0,0,0,234,0.0
+NORMAL,qualified_key,1219,225,0,0.0,225,0,0,0,234,0.0
+NORMAL,split_group,1219,224,0,0.0,224,0,0,0,234,0.0
+NORMAL,pixel_sha256,1348,231,0,0.0,231,0,0,0,234,0.0
+BACTERIAL,raw_key,1360,77,0,0.0,77,0,0,0,242,0.0
+BACTERIAL,qualified_key,1360,77,0,0.0,77,0,0,0,242,0.0
+BACTERIAL,split_group,1360,77,0,0.0,77,0,0,0,242,0.0
+BACTERIAL,pixel_sha256,2520,240,0,0.0,240,0,0,0,242,0.0
+VIRAL,raw_key,1090,126,0,0.0,126,0,0,0,148,0.0
+VIRAL,qualified_key,1090,126,0,0.0,126,0,0,0,148,0.0
+VIRAL,split_group,1090,126,0,0.0,126,0,0,0,148,0.0
+VIRAL,pixel_sha256,1338,147,0,0.0,147,0,0,0,148,0.0

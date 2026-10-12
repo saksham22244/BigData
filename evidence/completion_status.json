@@ -1,0 +1,12 @@
+{
+  "analysis_complete": true,
+  "error": null,
+  "evaluated_runs_verified": 16,
+  "expected_runs": 16,
+  "manuscript_package_verified": false,
+  "missing_runs": [],
+  "patient_identity_verified": false,
+  "phase": "complete",
+  "public_release_verified": false,
+  "submission_ready": false
+}

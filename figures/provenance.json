@@ -1,0 +1,112 @@
+{
+  "source_executed_notebook_sha256": "6d9abe581f4fdd9d319223977e30803c78c560968a9240e88b1de142c8ec46a4",
+  "source_executed_notebook_filename": "BigDataPneumonia_Formatted_Readable(1).ipynb",
+  "source_indices_are_zero_based": true,
+  "figures": [
+    {
+      "figure": "Fig1",
+      "file": "figures/Fig1.png",
+      "size": [
+        2160,
+        675
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "fb62a1146f4e6c736af54f3bdc18620532836f1a5f39e226ae5dbf18cd78b913",
+      "source_cell": 44,
+      "source_output": 2
+    },
+    {
+      "figure": "Fig2",
+      "file": "figures/Fig2.png",
+      "size": [
+        2160,
+        2040
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "b62e99044349f1db2d31adfee8e55bf3ddfd1d5970869520b45ad8f4515671c0",
+      "source_cell": 44,
+      "source_output": 4
+    },
+    {
+      "figure": "Fig3",
+      "file": "figures/Fig3.png",
+      "size": [
+        2160,
+        1065
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "33855831d8cca36f8843a2fd7bd7a74af7fd1f026810cc65e9f5689ce4b363a9",
+      "source_cell": 44,
+      "source_output": 6
+    },
+    {
+      "figure": "Fig4",
+      "file": "figures/Fig4.png",
+      "size": [
+        2160,
+        1065
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "008165c74d3b167fc6fe949019cb49f1028d4ebd79f964a387214450a45e4395",
+      "source_cell": 44,
+      "source_output": 8
+    },
+    {
+      "figure": "Fig5",
+      "file": "figures/Fig5.png",
+      "size": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "03f8624f2fe0a35f21143d512d09d4389c3e4c05adc593a2d11dcc5820d44516",
+      "source_cell": 44,
+      "source_output": 10
+    },
+    {
+      "figure": "Fig6",
+      "file": "figures/Fig6.png",
+      "size": [
+        2160,
+        1620
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "6431038081e11edf956cb4bd7d39eb373c2c92d974047d09829f9d14336927e3",
+      "source_cell": 44,
+      "source_output": 12
+    },
+    {
+      "figure": "Fig7",
+      "file": "figures/Fig7.png",
+      "size": [
+        2160,
+        1620
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "2f4c78d96de082787e41568dc83dd394d15272c3850d0d120320495ff60211e7",
+      "source_cell": 44,
+      "source_output": 14
+    }
+  ]
+}

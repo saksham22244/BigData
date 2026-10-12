@@ -1,0 +1,4 @@
+parse_rule,images,fallback,percent_images,filename,qualified_key,raw_key
+im_number,666,False,11.37295081967213,IM-0001-0001.jpeg,im-0001-0001,im-0001-0001
+normal_number_im,917,False,15.65915300546448,NORMAL2-IM-0007-0001.jpeg,normal2-im-0007,normal2-im-0007
+person_number_plus_subtype,4273,False,72.96789617486338,person100_bacteria_475.jpeg,person100_bacteria,person100
