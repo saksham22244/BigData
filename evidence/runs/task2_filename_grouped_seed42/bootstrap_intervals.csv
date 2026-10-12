@@ -1,0 +1,7 @@
+metric,estimate,lower_95,upper_95,method,resampling_unit,attempted_replicates,effective_replicates,bootstrap_seed,positive_class
+accuracy,0.7702702702702703,0.7188904089861751,0.8180549778702074,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,VIRAL
+sensitivity,0.6779661016949152,0.5813103088072077,0.7758719099354432,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,VIRAL
+specificity,0.8209302325581396,0.769820497075283,0.8640602518923202,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,VIRAL
+precision,0.6751054852320675,0.6043253373313343,0.7461033780809858,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,VIRAL
+f1,0.6765327695560254,0.6114590092297099,0.7397275003682428,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,VIRAL
+roc_auc,0.8319176192353174,0.7857031590474901,0.878751039489153,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,VIRAL

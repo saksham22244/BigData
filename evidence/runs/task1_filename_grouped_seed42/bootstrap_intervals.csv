@@ -1,0 +1,7 @@
+metric,estimate,lower_95,upper_95,method,resampling_unit,attempted_replicates,effective_replicates,bootstrap_seed,positive_class
+accuracy,0.9489904357066951,0.9322770695131167,0.9640081166491673,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,PNEUMONIA
+sensitivity,0.9673758865248226,0.9516089884121516,0.9810879490050822,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,PNEUMONIA
+specificity,0.8940677966101694,0.8504616461239785,0.9346960958296362,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,PNEUMONIA
+precision,0.9646393210749646,0.9479077192585895,0.9790870098039215,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,PNEUMONIA
+f1,0.9660056657223796,0.9535193746750164,0.9765072267322794,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,PNEUMONIA
+roc_auc,0.9846375766318067,0.9774354894514912,0.9906645570393837,percentile,filename_group_with_exact_duplicate_constraints,2000,2000,42,PNEUMONIA

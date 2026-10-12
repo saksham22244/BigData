@@ -1,0 +1,17 @@
+{
+  "files": {
+    "bootstrap_intervals.csv": "92b329f10f21057a5110518bc743233cd3f6e4d4d8242c0550328a7d933bcf12",
+    "confusion_matrix.pdf": "8dc95410b64942d283ef2b8544665781a1e41bfa7875655c8e0e22d10422589e",
+    "confusion_matrix.png": "abed3d0e9a835f687ef1bc635b79a5295fe43e5a09c59cafe99efa558a6008b4",
+    "roc_curve.pdf": "9906543f33e693b225f4cc5135de4e3623b522c0444b94edd8e66abd370fa54c",
+    "roc_curve.png": "863aa407fbacd74f28307aebfe39d5bc075a60a56a0c0c40a2badc28b15df2d5",
+    "test_metrics.csv": "b72b1a4b44520c7d531b68e47c9d34db13ccf928e349928d771065c139040e25",
+    "threshold_sensitivity.csv": "93fd97515ec03690310473194d03a9466a1b0457841eedb4d477f3be27b7256f",
+    "training_curves.pdf": "b6a7999001b7a6857cc29dedce5aa1e5873730458ac5be98e36afa575392d907",
+    "training_curves.png": "98946752336ba62bd3c870077e9ccd7551b6e0892936f27fec110a71ac240660"
+  },
+  "signature": {
+    "implementation": "311fdd4442a623add59a8b23d14ff56b85fa278f03117ab70d36e15c955b0e36",
+    "test_sha256": "4c65760f163715b16abf94c115d1f167ed8a472662ad23e5fc27ce226140fdf6"
+  }
+}

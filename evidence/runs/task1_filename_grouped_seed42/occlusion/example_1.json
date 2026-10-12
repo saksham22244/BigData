@@ -1,0 +1,14 @@
+{
+  "cache_key": "327ea7cd48d517cb6fb2c5e7ea446d8eb6c7aeb698d51180ef13073b4d51dd59",
+  "correct": true,
+  "image_id": "test/NORMAL/NORMAL2-IM-0378-0001.jpeg",
+  "inference": "fixed TTA, three passes",
+  "patch": 48,
+  "positive_class": "PNEUMONIA",
+  "probability": 0.17333245277404785,
+  "selection_pool_size": 211,
+  "selection_seed": 42,
+  "stride": 48,
+  "target_label": "NORMAL",
+  "threshold": 0.55
+}

@@ -1,0 +1,14 @@
+{
+  "cache_key": "b4deeafb0b5a2a332c0c35590b3c2c1ad8b2d51a4d96f423d07ae25782c1c67f",
+  "correct": false,
+  "image_id": "train/PNEUMONIA/person51_bacteria_248.jpeg",
+  "inference": "fixed TTA, three passes",
+  "patch": 48,
+  "positive_class": "PNEUMONIA",
+  "probability": 0.47648534178733826,
+  "selection_pool_size": 23,
+  "selection_seed": 42,
+  "stride": 48,
+  "target_label": "NORMAL",
+  "threshold": 0.55
+}

@@ -1,0 +1,28 @@
+{
+  "archive": "evaluation_archive/before_v3_1_1ced0199667744169fe4ab3ef1c4cf11",
+  "archived_files": [
+    "evaluation_complete.json",
+    "tuning_predictions.csv",
+    "test_predictions.csv",
+    "tuning_probabilities.partial.csv",
+    "test_probabilities.partial.csv",
+    "tuning_probabilities.partial.signature.json",
+    "test_probabilities.partial.signature.json",
+    "test_metrics.csv",
+    "threshold_sensitivity.csv",
+    "bootstrap_intervals.csv",
+    "reports_complete.json",
+    "roc_curve.png",
+    "roc_curve.pdf",
+    "confusion_matrix.png",
+    "confusion_matrix.pdf",
+    "occlusion/"
+  ],
+  "inference_revision": "fixed_image_tta_v2_padded_physical_batch",
+  "reason": "Unify physical batch shape for Task 1 evaluation and occlusion.",
+  "target_signature": {
+    "run_signature": "8d3d91d27bf94291705ba52490f2b8fa1197a71accb12d7883df060ec3868cd8",
+    "weights": "ef5cdf32a396f879ab6ef1997b923f5d884bc23731f7625d2e4fee65be7d5ee0"
+  },
+  "training_changed": false
+}

@@ -1,0 +1,49 @@
+{
+  "TTA_passes": 0,
+  "actual_trainable_backbone_layers": 71,
+  "architecture": "DenseNet121",
+  "augmentation": {
+    "brightness_range": [
+      0.9,
+      1.1
+    ],
+    "fill_mode": "nearest",
+    "height_shift_range": 0.05,
+    "horizontal_flip": true,
+    "rotation_range": 8,
+    "width_shift_range": 0.05,
+    "zoom_range": 0.1
+  },
+  "backbone_batch_normalization_frozen": true,
+  "backbone_frozen_in_head": true,
+  "batch_size": 16,
+  "class_weight": "balanced_training_images",
+  "classes": [
+    "BACTERIAL",
+    "VIRAL"
+  ],
+  "es_min_delta": 0.0,
+  "es_patience": 7,
+  "finetune_epochs": 25,
+  "finetune_epochs_completed": 8,
+  "finetune_lr": 3e-06,
+  "head": "global_average_pool,BN,dropout0.4,dense256_relu,BN,dropout0.3,sigmoid",
+  "head_epochs": 12,
+  "head_epochs_completed": 12,
+  "head_lr": 0.001,
+  "lr_patience": 3,
+  "mode": "max",
+  "monitor": "val_auc",
+  "oversampling": false,
+  "positive_class": "VIRAL",
+  "pretrained": "imagenet",
+  "selection": "maximum tuning AUROC within fine-tuning stage",
+  "size": [
+    320,
+    320
+  ],
+  "task": "task2",
+  "trainable_parameters": 2186241,
+  "upper_layer_positions": 100,
+  "upper_layers": 100
+}

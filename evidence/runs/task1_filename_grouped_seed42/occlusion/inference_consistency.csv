@@ -1,0 +1,5 @@
+image_id,stored_probability,reproduced_probability,absolute_difference,probability_matches,classification_matches,physical_batch_size,inference_revision
+test/NORMAL/NORMAL2-IM-0378-0001.jpeg,0.1733324527740478,0.17333245277404785,5.551115123125783e-17,True,True,32,fixed_image_tta_v2_padded_physical_batch
+test/NORMAL/NORMAL2-IM-0171-0001.jpeg,0.909291923046112,0.9092919230461121,1.1102230246251565e-16,True,True,32,fixed_image_tta_v2_padded_physical_batch
+train/PNEUMONIA/person1668_bacteria_4421.jpeg,0.8440654873847961,0.8440654873847961,0.0,True,True,32,fixed_image_tta_v2_padded_physical_batch
+train/PNEUMONIA/person51_bacteria_248.jpeg,0.4764853417873382,0.47648534178733826,5.551115123125783e-17,True,True,32,fixed_image_tta_v2_padded_physical_batch

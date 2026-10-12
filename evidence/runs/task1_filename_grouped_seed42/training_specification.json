@@ -1,0 +1,44 @@
+{
+  "TTA_passes": 3,
+  "TTA_rule": "fixed_transform_per_image_id_and_pass_v1",
+  "architecture": "InceptionV3",
+  "augmentation": {
+    "brightness_range": [
+      0.85,
+      1.15
+    ],
+    "fill_mode": "nearest",
+    "height_shift_range": 0.08,
+    "horizontal_flip": true,
+    "rotation_range": 12,
+    "shear_range": 0.05,
+    "width_shift_range": 0.08,
+    "zoom_range": 0.15
+  },
+  "backbone_frozen_in_head": true,
+  "batch_size": 32,
+  "class_weight": "balanced_training_images",
+  "classes": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "es_min_delta": 0.0001,
+  "es_patience": 10,
+  "finetune_epochs": 0,
+  "head": "global_average_pool,dropout0.5,sigmoid",
+  "head_epochs": 30,
+  "head_epochs_completed": 21,
+  "head_lr": 0.001,
+  "lr_patience": 4,
+  "mode": "min",
+  "monitor": "val_loss",
+  "oversampling": false,
+  "positive_class": "PNEUMONIA",
+  "pretrained": "imagenet",
+  "selection": "minimum tuning loss",
+  "size": [
+    299,
+    299
+  ],
+  "task": "task1"
+}

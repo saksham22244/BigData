@@ -1,0 +1,5 @@
+cache_key,correct,image_id,inference,patch,positive_class,probability,selection_pool_size,selection_seed,stride,target_label,threshold
+0fc3fed4e738303b84d85b9b266f1bfa4f68d169b4190bead71f027cce99760e,True,train/PNEUMONIA/person48_bacteria_230.jpeg,single pass,48,VIRAL,0.2444504350423813,353,42,48,BACTERIAL,0.65
+1d68cd67fb6a6b7906c574aa130180d06584e32f7d18fd63b3033c33f7a8f820,False,train/PNEUMONIA/person1323_bacteria_3362.jpeg,single pass,48,VIRAL,0.6649133563041687,77,42,48,VIRAL,0.65
+8256918a8a96f4a08e6f946270cdff2e6605bd99e7a735eebf962c51fa550191,True,train/PNEUMONIA/person371_virus_754.jpeg,single pass,48,VIRAL,0.9372022747993469,160,42,48,VIRAL,0.65
+016fe8a973a8adb01405830fdffda9f964ae38d549a6a7b9f38140aea3873183,False,train/PNEUMONIA/person1145_virus_1905.jpeg,single pass,48,VIRAL,0.12583936750888824,76,42,48,BACTERIAL,0.65

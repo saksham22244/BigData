@@ -1,0 +1,14 @@
+{
+  "cache_key": "1d68cd67fb6a6b7906c574aa130180d06584e32f7d18fd63b3033c33f7a8f820",
+  "correct": false,
+  "image_id": "train/PNEUMONIA/person1323_bacteria_3362.jpeg",
+  "inference": "single pass",
+  "patch": 48,
+  "positive_class": "VIRAL",
+  "probability": 0.6649133563041687,
+  "selection_pool_size": 77,
+  "selection_seed": 42,
+  "stride": 48,
+  "target_label": "VIRAL",
+  "threshold": 0.65
+}
