@@ -1,0 +1,31 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local datasets, checkpoints and newly calculated outputs
+datasets/
+data_local/
+reproduced_results*/
+new_experiment*/
+publication_output*/
+outputs/
+*.keras
+*.h5
+*.hdf5
+*.ckpt*
+*.zip
+*.tmp
+*.copying
+
+# Personal credentials and local configuration
+.env
+.env.*
+credentials*.json
+token*.json
+
+# Keep the supplied evidence tables and audit records tracked.
