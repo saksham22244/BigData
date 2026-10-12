@@ -1,0 +1,2 @@
+task,design,seed,run_id,positive_class,threshold,accuracy,sensitivity,specificity,precision,f1,roc_auc
+task2,image_level,71,task2_image_level_seed71,VIRAL,0.54,0.7800312012480499,0.7633928571428571,0.7889688249400479,0.6602316602316602,0.7080745341614907,0.8324661699212059

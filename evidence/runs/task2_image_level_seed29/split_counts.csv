@@ -1,0 +1,7 @@
+partition,label,images,filename_groups,split_units,design
+train,BACTERIAL,1946,1136,1136,image_level
+train,VIRAL,1045,892,892,image_level
+tuning,BACTERIAL,417,345,345,image_level
+tuning,VIRAL,224,214,214,image_level
+test,BACTERIAL,417,347,347,image_level
+test,VIRAL,224,213,213,image_level

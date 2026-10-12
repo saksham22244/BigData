@@ -1,0 +1,5 @@
+{
+  "inference": "single_pass_v1",
+  "run_signature": "7b643c7542ffc8844d039279b2638b88c824f10b9cc906f2525402fbd0580ed8",
+  "weights": "89ac6101aea39593e802cb70b39741d4334f9a6ef9cebeced7608d7aa751973d"
+}

@@ -1,0 +1,13 @@
+first,second,key_rule,overlapping_groups,second_group_denominator,percent_second_groups,affected_first_images,affected_second_images
+train,tuning,raw_key,396,527,75.14231499051233,1012,496
+train,tuning,qualified_key,223,562,39.679715302491104,605,292
+train,tuning,split_group,223,562,39.679715302491104,605,292
+train,tuning,pixel_sha256,6,639,0.9389671361502347,6,7
+train,test,raw_key,380,509,74.65618860510806,1005,495
+train,test,qualified_key,234,550,42.54545454545455,639,309
+train,test,split_group,234,550,42.54545454545455,639,309
+train,test,pixel_sha256,8,641,1.24804992199688,9,8
+tuning,test,raw_key,160,509,31.43418467583497,227,222
+tuning,test,qualified_key,101,550,18.363636363636363,149,140
+tuning,test,split_group,101,550,18.363636363636363,149,140
+tuning,test,pixel_sha256,1,641,0.15600624024961,1,1
