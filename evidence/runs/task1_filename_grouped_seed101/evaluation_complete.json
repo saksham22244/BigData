@@ -1,0 +1,18 @@
+{
+  "evaluation_complete": true,
+  "metrics": {
+    "accuracy": 0.9290254237288136,
+    "f1": 0.9509157509157509,
+    "precision": 0.9818456883509834,
+    "roc_auc": 0.9813802083333334,
+    "sensitivity": 0.921875,
+    "specificity": 0.95
+  },
+  "signature": {
+    "run_signature": "c65bb08a18e08a82b27a38de5bed6aa21c07f5c32ff98cd6e9da2b3d833b81f4",
+    "weights": "666e15c810edd4bebd14e041d4a659808a0793daa946b9caca39ffc9f4d21d7d"
+  },
+  "test_predictions.csv": "c7d2e6b2afc8e59378749b6c170537115e20f4275750d3db1a05f0912983a9c6",
+  "threshold": 0.66,
+  "tuning_predictions.csv": "8abc34c2740a468991c840864149ae581e04e654618582c02254eb2dd3056a3b"
+}

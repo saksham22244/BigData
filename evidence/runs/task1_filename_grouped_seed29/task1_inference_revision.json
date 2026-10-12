@@ -1,0 +1,22 @@
+{
+  "archive": "evaluation_archive/before_v3_1_ffd7ae97088a4a84b02eae140e517a56",
+  "archived_files": [
+    "evaluation_complete.json",
+    "tuning_predictions.csv",
+    "test_predictions.csv",
+    "tuning_probabilities.partial.csv",
+    "test_probabilities.partial.csv",
+    "tuning_probabilities.partial.signature.json",
+    "test_probabilities.partial.signature.json",
+    "test_metrics.csv",
+    "threshold_sensitivity.csv",
+    "reports_complete.json"
+  ],
+  "inference_revision": "fixed_image_tta_v2_padded_physical_batch",
+  "reason": "Unify physical batch shape for Task 1 evaluation and occlusion.",
+  "target_signature": {
+    "run_signature": "fd8de5085276a05fbc0553029ed7f5191fbfa00fdd5566702751e5f68c2fd3dc",
+    "weights": "b68acc25da8a450cb480114cf397f87b2efa8d065ec1f5ab15d8f0006f656089"
+  },
+  "training_changed": false
+}

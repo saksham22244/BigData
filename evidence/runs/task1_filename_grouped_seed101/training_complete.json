@@ -1,0 +1,309 @@
+{
+  "architecture": {
+    "backbone_frozen_in_head": true,
+    "head_epochs_completed": 14
+  },
+  "selected_weights_sha256": "666e15c810edd4bebd14e041d4a659808a0793daa946b9caca39ffc9f4d21d7d",
+  "selection": "minimum tuning loss",
+  "signature_hash": "0f2afcb4150600c8966e93175e7c681cfa0a8525bfe99793e17f3c7636115512",
+  "stages": {
+    "head": {
+      "best_file": "269d0ba77287488981469ce605845f2e.npz",
+      "best_file_sha256": "cef3cb9664b888a88fdaff0fac30c8ba60e20e9b4b9c6c644c0c4ff6f2711e12",
+      "early": {
+        "best": 0.25620734691619873,
+        "best_epoch": 3,
+        "stopped_epoch": 13,
+        "wait": 10
+      },
+      "epoch": 14,
+      "epochs": 30,
+      "history": [
+        {
+          "accuracy": 0.8009852170944214,
+          "auc": 0.894612729549408,
+          "epoch": 1,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.4134818911552429,
+          "val_accuracy": 0.8497652411460876,
+          "val_auc": 0.945868968963623,
+          "val_loss": 0.35806775093078613
+        },
+        {
+          "accuracy": 0.871921181678772,
+          "auc": 0.944062352180481,
+          "epoch": 2,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.30373793840408325,
+          "val_accuracy": 0.8497652411460876,
+          "val_auc": 0.9562795162200928,
+          "val_loss": 0.3536694645881653
+        },
+        {
+          "accuracy": 0.8982758522033691,
+          "auc": 0.9608629941940308,
+          "epoch": 3,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.25432369112968445,
+          "val_accuracy": 0.8450704216957092,
+          "val_auc": 0.9611546397209167,
+          "val_loss": 0.36517515778541565
+        },
+        {
+          "accuracy": 0.8896551728248596,
+          "auc": 0.9597095847129822,
+          "epoch": 4,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.25705116987228394,
+          "val_accuracy": 0.9025821685791016,
+          "val_auc": 0.9653313755989075,
+          "val_loss": 0.25620734691619873
+        },
+        {
+          "accuracy": 0.8896551728248596,
+          "auc": 0.9626190066337585,
+          "epoch": 5,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.24864128232002258,
+          "val_accuracy": 0.8697183132171631,
+          "val_auc": 0.9652690887451172,
+          "val_loss": 0.3211194574832916
+        },
+        {
+          "accuracy": 0.9022167325019836,
+          "auc": 0.9671222567558289,
+          "epoch": 6,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.2330271303653717,
+          "val_accuracy": 0.8720657229423523,
+          "val_auc": 0.9670255780220032,
+          "val_loss": 0.32525157928466797
+        },
+        {
+          "accuracy": 0.9012315273284912,
+          "auc": 0.9651068449020386,
+          "epoch": 7,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.23865583539009094,
+          "val_accuracy": 0.9014084339141846,
+          "val_auc": 0.9690136909484863,
+          "val_loss": 0.26852625608444214
+        },
+        {
+          "accuracy": 0.9110837578773499,
+          "auc": 0.9690250158309937,
+          "epoch": 8,
+          "learning_rate": 0.0010000000474974513,
+          "loss": 0.22436966001987457,
+          "val_accuracy": 0.8403756022453308,
+          "val_auc": 0.9695737361907959,
+          "val_loss": 0.371809720993042
+        },
+        {
+          "accuracy": 0.9081280827522278,
+          "auc": 0.9713761210441589,
+          "epoch": 9,
+          "learning_rate": 0.0003000000142492354,
+          "loss": 0.2165285050868988,
+          "val_accuracy": 0.8908450603485107,
+          "val_auc": 0.9702756404876709,
+          "val_loss": 0.28958648443222046
+        },
+        {
+          "accuracy": 0.9123152494430542,
+          "auc": 0.9713335633277893,
+          "epoch": 10,
+          "learning_rate": 0.0003000000142492354,
+          "loss": 0.21712373197078705,
+          "val_accuracy": 0.8861502408981323,
+          "val_auc": 0.9698709845542908,
+          "val_loss": 0.30176377296447754
+        },
+        {
+          "accuracy": 0.9098522067070007,
+          "auc": 0.9695608615875244,
+          "epoch": 11,
+          "learning_rate": 0.0003000000142492354,
+          "loss": 0.22259390354156494,
+          "val_accuracy": 0.8708920478820801,
+          "val_auc": 0.9693697094917297,
+          "val_loss": 0.3265857994556427
+        },
+        {
+          "accuracy": 0.9165024757385254,
+          "auc": 0.9728056788444519,
+          "epoch": 12,
+          "learning_rate": 0.0003000000142492354,
+          "loss": 0.2104133516550064,
+          "val_accuracy": 0.8931924700737,
+          "val_auc": 0.970483124256134,
+          "val_loss": 0.28162407875061035
+        },
+        {
+          "accuracy": 0.9197044372558594,
+          "auc": 0.9730077981948853,
+          "epoch": 13,
+          "learning_rate": 9.000000136438757e-05,
+          "loss": 0.20949560403823853,
+          "val_accuracy": 0.8779342770576477,
+          "val_auc": 0.9699817895889282,
+          "val_loss": 0.3157598078250885
+        },
+        {
+          "accuracy": 0.9118226766586304,
+          "auc": 0.9751587510108948,
+          "epoch": 14,
+          "learning_rate": 9.000000136438757e-05,
+          "loss": 0.20301295816898346,
+          "val_accuracy": 0.8791079521179199,
+          "val_auc": 0.9700853824615479,
+          "val_loss": 0.3108847439289093
+        }
+      ],
+      "learning_rate": 9.000000136438757e-05,
+      "model_file": "269d0ba77287488981469ce605845f2e.keras",
+      "model_file_sha256": "36a4089e6a408b85c99eeba144b81f76841f0ed47d5460b95f148ec25cd34218",
+      "optimizer_iterations": 1778,
+      "reduce": {
+        "best": 0.25620734691619873,
+        "cooldown_counter": 0,
+        "wait": 2
+      },
+      "signature": {
+        "content_sha256": "7cedb1d089c850957118f56f91aa50e46b33474fc7d5e48dcb07b0f138dee290",
+        "protocol": {
+          "bootstrap_attempts": 2000,
+          "evaluation": "fixed_image_id_TTA_v1",
+          "grouping": "qualified_filename_plus_exact_pixel_duplicate_components_v3",
+          "implementation_sha256": "311fdd4442a623add59a8b23d14ff56b85fa278f03117ab70d36e15c955b0e36",
+          "seeds": [
+            17,
+            29,
+            42,
+            71,
+            101
+          ],
+          "software": {
+            "Pillow": "11.3.0",
+            "keras": "3.13.2",
+            "numpy": "2.1.3",
+            "pandas": "2.2.3",
+            "python": "3.13.15",
+            "scikit-learn": "1.6.1",
+            "scipy": "1.16.3",
+            "tensorflow": "2.20.0"
+          },
+          "task1": {
+            "TTA_passes": 3,
+            "TTA_rule": "fixed_transform_per_image_id_and_pass_v1",
+            "architecture": "InceptionV3",
+            "augmentation": {
+              "brightness_range": [
+                0.85,
+                1.15
+              ],
+              "fill_mode": "nearest",
+              "height_shift_range": 0.08,
+              "horizontal_flip": true,
+              "rotation_range": 12,
+              "shear_range": 0.05,
+              "width_shift_range": 0.08,
+              "zoom_range": 0.15
+            },
+            "batch_size": 32,
+            "class_weight": "balanced_training_images",
+            "classes": [
+              "NORMAL",
+              "PNEUMONIA"
+            ],
+            "es_min_delta": 0.0001,
+            "es_patience": 10,
+            "finetune_epochs": 0,
+            "head": "global_average_pool,dropout0.5,sigmoid",
+            "head_epochs": 30,
+            "head_lr": 0.001,
+            "lr_patience": 4,
+            "mode": "min",
+            "monitor": "val_loss",
+            "oversampling": false,
+            "positive_class": "PNEUMONIA",
+            "pretrained": "imagenet",
+            "selection": "minimum tuning loss",
+            "size": [
+              299,
+              299
+            ],
+            "task": "task1"
+          },
+          "task2": {
+            "TTA_passes": 0,
+            "architecture": "DenseNet121",
+            "augmentation": {
+              "brightness_range": [
+                0.9,
+                1.1
+              ],
+              "fill_mode": "nearest",
+              "height_shift_range": 0.05,
+              "horizontal_flip": true,
+              "rotation_range": 8,
+              "width_shift_range": 0.05,
+              "zoom_range": 0.1
+            },
+            "backbone_batch_normalization_frozen": true,
+            "batch_size": 16,
+            "class_weight": "balanced_training_images",
+            "classes": [
+              "BACTERIAL",
+              "VIRAL"
+            ],
+            "es_min_delta": 0.0,
+            "es_patience": 7,
+            "finetune_epochs": 25,
+            "finetune_lr": 3e-06,
+            "head": "global_average_pool,BN,dropout0.4,dense256_relu,BN,dropout0.3,sigmoid",
+            "head_epochs": 12,
+            "head_lr": 0.001,
+            "lr_patience": 3,
+            "mode": "max",
+            "monitor": "val_auc",
+            "oversampling": false,
+            "positive_class": "VIRAL",
+            "pretrained": "imagenet",
+            "selection": "maximum tuning AUROC within fine-tuning stage",
+            "size": [
+              320,
+              320
+            ],
+            "task": "task2",
+            "upper_layers": 100
+          },
+          "threshold": "max tuning balanced accuracy; accuracy then lower threshold; grid0.10..0.90step0.01",
+          "version": "reviewer_complete_v3"
+        },
+        "run": {
+          "design": "filename_grouped",
+          "run_id": "task1_filename_grouped_seed101",
+          "seed": 101,
+          "task": "task1"
+        },
+        "split_sha256": "ba5bc032d2c94ef394ac3e65b00cf8fb6dcc73039cbea9ffa81aa03b20f72476",
+        "stage": {
+          "epochs": 30,
+          "es_min_delta": 0.0001,
+          "es_patience": 10,
+          "lr_factor": 0.3,
+          "lr_patience": 4,
+          "min_lr": 1e-06,
+          "mode": "min",
+          "monitor": "val_loss",
+          "name": "head"
+        }
+      },
+      "signature_hash": "1c04dc1fa3543cdbef21014e19ca9d17d7a8de5f483a10da36bfbd27a86f651b",
+      "stage_name": "head",
+      "training_complete": true
+    }
+  },
+  "training_complete": true
+}

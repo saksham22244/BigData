@@ -1,0 +1,5 @@
+{
+  "inference": "fixed_image_tta_v1",
+  "run_signature": "26d8fc60863d713622e2ef1464852f0d51b88c1a2332570f4e1b74f7268d9570",
+  "weights": "c297787f62f356d86856559d5b339039134d34e2098e9ec3f6145f8689959f44"
+}

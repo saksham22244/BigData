@@ -1,0 +1,2 @@
+task,design,seed,run_id,positive_class,threshold,accuracy,sensitivity,specificity,precision,f1,roc_auc
+task1,filename_grouped,29,task1_filename_grouped_seed29,PNEUMONIA,0.64,0.9425414364640884,0.9421364985163204,0.9437229437229437,0.9799382716049383,0.9606656580937972,0.9874690097242027

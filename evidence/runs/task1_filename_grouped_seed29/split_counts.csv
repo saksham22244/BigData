@@ -1,0 +1,7 @@
+partition,label,images,filename_groups,split_units,design
+train,NORMAL,1115,1011,1010,filename_grouped
+train,PNEUMONIA,2935,1857,1857,filename_grouped
+tuning,NORMAL,237,216,216,filename_grouped
+tuning,PNEUMONIA,664,398,398,filename_grouped
+test,NORMAL,231,217,217,filename_grouped
+test,PNEUMONIA,674,398,398,filename_grouped
